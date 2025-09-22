@@ -4,12 +4,10 @@
   "type": "module",
   "main": "index.js",
   "scripts": {
-        "test": "echo \"Error: no test specified\" && exit 1",
-
-    "start": "node src/server.js",
-    "dev": "nodemon src/server.js",
-        "vercel-build": "echo 'Vercel build'"
-
+    "dev": "node server.js",
+    "start": "node server.js",
+    "build": "echo 'Building GymFit API' && exit 0",
+    "vercel-build": "npm install && echo 'Vercel build completed'"
   },
   "keywords": [],
   "author": "",
